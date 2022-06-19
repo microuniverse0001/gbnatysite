@@ -1,0 +1,253 @@
+.center {
+    padding-left: calc(50% - 640px);
+    padding-right: calc(50% - 640px)
+}
+
+img {
+    max-width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(93, 86, 219);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 32px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.header__link:hover {
+    color: rgba(108, 99, 255, 1);
+    transition: all 1s;
+}
+
+.header__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 23px;
+    color: white
+}
+
+.image__title {
+    display: flex;
+    justify-content: right;
+    padding-left: 60px;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 85px;
+    padding-bottom: 85px;
+}
+
+.title {
+    color: rgba(108, 99, 255, 1);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    width: 507px;
+}
+
+.my__photo {
+    display: flex;
+    width: 380px;
+    margin-top: 40px;
+    padding-left: 40px;
+    padding-right: 10px;
+}
+
+.about__mecontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header__sector {
+    line-height: 80px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+
+.about__me {
+    margin-top: 140px;
+    padding-top: 64px;
+}
+
+.undertitle {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    color: white;
+}
+
+.text {
+    width: 631px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 42px;
+    color: white;
+    box-sizing: border-box;
+}
+
+.block {
+    padding-top: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 85px;
+}
+
+.skills {
+    margin-top: 140px;
+}
+
+.job {
+    margin-top: 140px;
+}
+
+.header__sector {
+    color: rgba(108, 99, 255, 1);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 80px;
+}
+
+.contacts__sector {
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contacts__content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    padding-left: 40px;
+}
+
+.contacts__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 140px;
+}
+
+.contacts__sector {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 28px;
+}
+
+.contacts__content :hover {
+    color: rgba(108, 99, 255, 1);
+    transition: 1s;
+}
+
+.email {
+    margin-bottom: 32px;
+}
+
+.iconplane {
+    margin-right: 100px;
+    margin-bottom: 154px;
+    padding-left: 600px;
+    padding-right: 50px;
+}
+
+@media (max-width: 1024px) {
+    /* Стили для планшета */
+    .center {
+        padding-left: calc(50% - 360px);
+        padding-right: calc(50% - 360px);
+    }
+    .title {
+        text-align: center;
+    }
+    .about__content {
+        justify-content: center;
+        gap: 32px;
+    }
+    .text {
+        text-align: center;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    /* Стили для телефона */
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .top {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .header__link {
+        font-size: 14px;
+    }
+    .header {
+        gap: 16px;
+        justify-content: center;
+    }
+    .title {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .contacts__content {
+        flex-wrap: wrap;
+        gap: 32px;
+        justify-content: center;
+    }
+    .iconplane {
+        display: flex;
+        flex-direction: column;
+        align-items: right;
+    }
+    .heading {
+        font-size: 18px;
+        text-align: center;
+    }
+    .center {
+        padding-left: calc(50% - 360px);
+        padding-right: calc(50% - 360px);
+    }
+    .title {
+        text-align: center;
+    }
+    .about__content {
+        justify-content: center;
+        gap: 16px;
+    }
+    .text {
+        text-align: center;
+        gap: 16px;
+    }
+}
